@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dakotawhipple.vectorpreview.MainActivity">
+
+    <!-- Make width and height the same for now -->
+    <com.dakotawhipple.vectorpreview.Gauge
+        android:layout_width="384dp"
+        android:layout_height="384dp"
+        gauge:value_min="70"
+        gauge:value_max="120"
+        gauge:value_default="70">
+    </com.dakotawhipple.vectorpreview.Gauge>
+</RelativeLayout>

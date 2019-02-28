@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Gauge">
+        <attr name="value_min" format="integer" />
+        <attr name="value_max" format="integer" />
+        <attr name="value_default" format="integer" />
+    </declare-styleable>
+</resources>
